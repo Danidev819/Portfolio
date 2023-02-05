@@ -36,7 +36,7 @@ const Home: FC = () => {
         <title>Portfolio: Danidev819</title>
         <meta
           name="description"
-          content="My personal portfolio."
+          content="I am a young software developer with 4 years of experience."
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
