@@ -2,7 +2,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FC, useState, useRef, useEffect } from "react";
 import { BsPerson } from "react-icons/bs";
 import Link from "next/link";
-import Image from "next/image";
 import { useAppDispatch } from "../redux/reduxHooks";
 import { setNavHeight } from "../redux/navHeight";
 import { useMediaQuery } from "react-responsive";
@@ -87,7 +86,7 @@ const Nav: FC = () => {
                   transition={{ duration: 0.5, type: "spring" }}
                   key={animationState}
                 >
-                  <Image
+                  <img
                     src="/profile.png"
                     alt="profile"
                     className="max-h-full max-w-full object-cover"
