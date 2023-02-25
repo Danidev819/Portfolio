@@ -53,7 +53,7 @@ const Home: FC = () => {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
           rel="stylesheet"
         />
-        <link rel="preload" as="image" href="/logo.png" sizes="100%" />
+        <link rel="preload" as="image" href="/profile.png" sizes="100%" />
       </Head>
       <AnimateSharedLayout>
         {typeof window !== "undefined" && <DynamicNav />}

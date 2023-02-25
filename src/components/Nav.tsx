@@ -88,7 +88,7 @@ const Nav: FC = () => {
                   key={animationState}
                 >
                   <Image
-                    src="/logo.png"
+                    src="/profile.png"
                     alt="profile"
                     className="max-h-full max-w-full object-cover"
                   />

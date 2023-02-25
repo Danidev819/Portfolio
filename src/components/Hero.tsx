@@ -10,7 +10,7 @@ const Hero: FC = () => {
     >
       <div className="rounded-full overflow-hidden">
         <Image
-          src="/logo.png"
+          src="/profile.png"
           alt="Profile"
           width={150}
           height={150}
