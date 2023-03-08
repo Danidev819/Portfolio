@@ -20,13 +20,6 @@ const Hero: FC = () => {
       <h1 className="text-white text-2xl font-openSans font-bold mt-6">
         Hey, I'm Dani.
       </h1>
-      <motion.h1
-        className="font-openSans text-center text-3xl md:text-6xl font-bold mt-6 leading-tight tracking-tighter gradient-text"
-        animate={{ opacity: 1, transition: { duration: 0.7 } }}
-        initial={{ opacity: 0 }}
-      >
-        NextJS Portfolio
-      </motion.h1>
       <motion.p
         className="md:w-1/2 mx-auto text-center mt-6 text-white-secondary"
         animate={{
@@ -34,7 +27,9 @@ const Hero: FC = () => {
         }}
         initial={{ opacity: 0 }}
       >
-        This is my personal <span className="font-medium">portfolio</span>.
+        I am a <span className="font-medium">Java developer</span> with expertise in <span className="font-medium">Minecraft coding</span>, I specialize in utilizing languages such as <span className="font-medium">Java and Kotlin</span>, as well as platforms such as <span className="font-medium">Spigot, Bukkit, Bungeecord, Waterfall, and Velocity</span> to create <span className="font-medium">top-of-the-line</span> Minecraft mods and servers.
+        Additionally, I have experience with web development languages including <span className="font-medium">HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, and Bootstrap</span>, which allows me to create custom web-based solutions for Minecraft servers and related projects.
+        Overall, my skillset is focused on creating <span className="font-medium">immersive Minecraft experiences</span> through a combination of technical expertise and creative problem-solving.
       </motion.p>
     </motion.div>
   );

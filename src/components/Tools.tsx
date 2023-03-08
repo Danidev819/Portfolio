@@ -27,7 +27,6 @@ const Tools: FC = () => {
             <li>Kotlin</li>
             <li>Spigot, Bukkit</li>
             <li>Bungeecord, Waterfall, Velocity</li>
-            <li>Spongepowered Mixins</li>
           </ul>
         </div>
         <div className="bg-bg-surface border-t-4 border-blue-500 rounded-md py-12 px-16 flex flex-col space-y-6 items-start">
